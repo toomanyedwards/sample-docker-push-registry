@@ -14,7 +14,7 @@ resources:
       portMappings:
         - 80:80
 
-  - name: ecs-test-cluster
+  - name: ecs-test-cluster-foo
     type: cluster
     integration: aws  # your Amazon ECS integration
     pointer:
