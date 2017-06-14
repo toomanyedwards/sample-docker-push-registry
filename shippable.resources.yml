@@ -16,7 +16,7 @@ resources:
 
   - name: ecs-test-cluster-foo
     type: cluster
-    integration: aws  # your Amazon ECS integration
+    integration: AWS  # your Amazon ECS integration
     pointer:
       sourceName : "wifi-location-sensing-cluster" #replace with name of the cluster to which you are deploying
       region: "us-east-1c" #replace with region of the cluster to which you are deploying
