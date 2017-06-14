@@ -1,7 +1,7 @@
 resources:
   - name: shipdemo-img
     type: image
-    integration: # your Amazon ECR integration
+    integration: ecr-integration
     pointer:
       sourceName: "348566687808.dkr.ecr.us-east-1.amazonaws.com/shippable/sample-docker-push-registry" # replace with a pointer to your docker image
       isPull: false
