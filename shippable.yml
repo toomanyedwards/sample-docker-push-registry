@@ -11,5 +11,5 @@ build:
 
 integrations:
   hub:
-    - integrationName: #your ECR integration name
+    - integrationName: ecr-integration
       type: ecr
