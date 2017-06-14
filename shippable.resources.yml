@@ -14,7 +14,7 @@ resources:
       portMappings:
         - 80:80
 
-  - name: wifi-location-sensing-cluster
+  - name: ecs-test-cluster
     type: cluster
     integration: AWS  # your Amazon ECS integration
     pointer:
