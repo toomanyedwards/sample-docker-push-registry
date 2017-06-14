@@ -10,6 +10,6 @@ jobs:
     steps:
       - IN: shipdemo-manifest
       - IN: shipdemo-img-options
-      - IN: wifi-location-sensing-cluster
+      - IN: ecs-test-cluster
       - TASK: managed
         deployMethod: upgrade
