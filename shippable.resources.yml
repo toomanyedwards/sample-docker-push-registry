@@ -6,7 +6,7 @@ resources:
       sourceName: "348566687808.dkr.ecr.us-east-1.amazonaws.com/shippable/sample-docker-push-registry" # replace with a pointer to your docker image     
       isPull: false
     seed:
-      versionName: "10"  #replace with your image tag on Amazon ECR
+      versionName: "latest"  #replace with your image tag on Amazon ECR
 
   - name: shipdemo-img-options
     type: dockerOptions
