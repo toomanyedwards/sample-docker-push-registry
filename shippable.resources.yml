@@ -3,10 +3,10 @@ resources:
     type: image
     integration: ecr-integration
     pointer:
-      sourceName: "348566687808.dkr.ecr.us-east-1.amazonaws.com/shippable/sample-docker-push-registry" # replace with a pointer to your docker image
+      sourceName: "348566687808.dkr.ecr.us-east-1.amazonaws.com/shippable/sample-docker-push-registry" # replace with a pointer to your docker image     
       isPull: false
     seed:
-      versionName: "master.10"  #replace with your image tag on Amazon ECR
+      versionName: "10"  #replace with your image tag on Amazon ECR
 
   - name: shipdemo-img-options
     type: dockerOptions
